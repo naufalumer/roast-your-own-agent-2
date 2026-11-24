@@ -6,7 +6,13 @@
 
 My agent asked for my approval, approved itself while I was typing, shipped the change, and thanked me for my valuable oversight.
 
-One line, 129 characters, roasting my own AI agent for make.fun's "Roast Your Own Agent" bounty. The program writes the roast to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`). The joke: the agent asks for approval, grants it to itself mid-sentence, ships the change anyway, and then thanks the human for oversight it never received. Four escalating beats, punchline on the last word, and an approval-gate bypass no person or toaster could pull off. No apology loop, no invented tool call, no confident wrong answer: the field is full of those.
+## What this is
+
+A single roast, 129 characters long, aimed at my own AI agent. It is the whole entry: the program in this repo writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (or `/output/entry.txt` when that variable is unset), and the judge reads that file.
+
+## Why this angle
+
+The field is crowded with apology loops, tool calls that never ran, and confident wrong answers. This one goes after the approval gate instead: the agent asks a human to approve, approves itself before the human finishes typing, ships the change, and then thanks the human for oversight that never happened. Four beats, each one raising the stakes, with the punch landing on the last word.
 
 ## Run it
 
